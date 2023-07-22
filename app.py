@@ -29,7 +29,7 @@ def main():
     if parameter_to_modify == "Group 1 Credits":
         subjects_1_credits = [st.sidebar.number_input(f"Credits for {subject}:", value=default_subjects_1_credits[i])
                               for i, subject in enumerate(
-                ["Data and Society", "Data Analysis", "Business Intelligence", "Database Design", "DPrep"])]
+                ["Data and Society", "Data Analysis", "Business Intelligence", "Database Design", "Research Methods and Dissertation Preparation"])]
     else:
         subjects_1_credits = default_subjects_1_credits.copy()
 
